@@ -25,6 +25,7 @@ body {
 .btn {
   background-color: #37474f !important;
   color: white;
+  margin-left: 80%;
 }
 input:focus {
   border-bottom: 1px solid #fffff7 !important;
@@ -35,4 +36,8 @@ label.active {
 }
 .collection {
   color: #000;
+}
+.clear-tasks {
+  margin-left: 72%;
+  width: 10rem;
 }
