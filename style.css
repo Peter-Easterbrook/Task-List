@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.vantasjs {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  z-index: 1;
+}
+.btn {
+  background-color: #37474f !important;
+  color: white;
+}
+input:focus {
+  border-bottom: 1px solid #fffff7 !important;
+  box-shadow: 0 1px 0 0 #fffff7 !important;
+}
+label.active {
+  color: #fffff7 !important;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/93b32f94da.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+    <title>Task List</title>
+  </head>
+
+  <body>
+    <div id="vantajs" class="vantasjs">
+      <div class="container" style="max-width: 50rem; margin-top: 10rem">
+        <div class="row">
+          <div class="col s12">
+            <div id="main" class="card blue-grey darken-4 white-text">
+              <div class="card-content">
+                <span class="card-title">Task List</span>
+                <div class="row white-text">
+                  <form id="task-form">
+                    <div class="input-field col s12">
+                      <input
+                        type="text"
+                        name="task"
+                        id="task"
+                        class="white-text"
+                      />
+                      <label for="task">New Task</label>
+                    </div>
+                    <input type="submit" value="Add Task" class="btn" />
+                  </form>
+                </div>
+              </div>
+              <div class="card-action">
+                <h5 id="task-title">Tasks</h5>
+                <div class="input-field col s12">
+                  <input
+                    type="text"
+                    name="filter"
+                    id="filter"
+                    class="white-text"
+                  />
+                  <label for="filter">Filter Tasks</label>
+                </div>
+                <ul class="collection"></ul>
+                <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
