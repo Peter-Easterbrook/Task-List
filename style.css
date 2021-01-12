@@ -33,3 +33,6 @@ input:focus {
 label.active {
   color: #fffff7 !important;
 }
+.collection {
+  color: #000;
+}
