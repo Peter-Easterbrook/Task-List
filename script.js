@@ -161,6 +161,6 @@ function filterTasks(e) {
     }
   });
 }
-VANTA.BIRDS({
+VANTA.WAVES({
   el: '#vantajs',
 });
